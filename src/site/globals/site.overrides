@@ -1,3 +1,6 @@
 /*******************************
          Site Overrides
 *******************************/
+
+@import (inline) 'site.paxer.css';
+@import (inline) 'site.hotel.css';

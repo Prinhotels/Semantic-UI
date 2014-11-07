@@ -1,0 +1,208 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+body:not(.semantic) input.placeholder {
+    color: #B2B2B2;
+}
+
+body:not(.semantic) button {
+    border: 1px solid #333;
+    padding: 3px 5px;
+    background: #CCC;
+    cursor: pointer;
+}
+
+/*Hack to FireFox to border dotted*/
+button::-moz-focus-inner, input::-moz-focus-inner,
+select::-moz-focus-inner, textarea::-moz-focus-inner {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Shapes */
+.arrow-up {
+    border-bottom: 7px solid #FFFFFF;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 0;
+}
+
+/* Webfonts Kit*/
+@font-face {
+    font-family: 'HarabaraRegular';
+    src: url('/kernel/webfontkit/harabara-webfont.eot');
+    src: url('/kernel/webfontkit/harabara-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/kernel/webfontkit/harabara-webfont.woff') format('woff'),
+         url('/kernel/webfontkit/harabara-webfont.ttf') format('truetype'),
+         url('/kernel/webfontkit/harabara-webfont.svg#HarabaraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaHvBTHeavy';
+    src: url('/kernel/webfontkit/futurah-webfont.eot');
+    src: url('/kernel/webfontkit/futurah-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/kernel/webfontkit/futurah-webfont.woff') format('woff'),
+         url('/kernel/webfontkit/futurah-webfont.ttf') format('truetype'),
+         url('/kernel/webfontkit/futurah-webfont.svg#FuturaHvBTHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/**** CLASES DE PAXER ****/
+
+.left{
+    text-align: left !important;
+}
+
+.right{
+    text-align: right !important;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.fleft{
+    float: left;
+}
+
+.fright{
+    float: right;
+}
+
+.hide{
+    display: none;
+}
+
+.invisible{
+    opacity:0;
+}
+
+/* Se respetan los espacios en blanco */
+.pre {
+    white-space: pre-wrap;
+}
+
+
+/* Notices */
+#notice-container {
+    position: fixed;
+    top: 10px;
+    right: 2%;
+    z-index:999999999999;
+}
+
+.notice {
+    position: relative;
+    width: 312px;
+    margin: 0;
+    display: none;
+}
+
+.notice-top {
+    height:20px;
+    background: url('/media/img/notice_top.png?v=2.214') no-repeat;
+}
+
+.notice-body {
+    min-height: 50px;
+    padding: 0 25px 0 35px;
+    color: #FFF;
+    font-weight: bold;
+    position: relative;
+    background: url('/media/img/notice_bg.png?v=2.214') 1px 0 repeat-y;
+}
+
+.notice-bot {
+    height:13px;
+    background: url('/media/img/notice_bot.png?v=2.214') no-repeat;
+}
+
+.notice .close {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    display: block;
+    width: 18px;
+    height: 17px;
+    cursor: pointer;
+    background: url('/media/img/notice_close.png?v=2.214') no-repeat;
+    font-size: 0;
+}
+
+.notice-body h3 {
+    margin: 0 0 10px 20px;
+}
+
+.notice-body span.notice-icon {
+    background: url('/media/img/notice_icon.png?v=2.214') no-repeat;
+    height: 56px;
+    left: -10px;
+    position: absolute;
+    top: -25px;
+    width: 58px;
+}
+
+.notice-body p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 0;
+    text-align: left;
+}
+
+.error .notice-top {
+    background-position:0 -20px;
+}
+
+.warning .notice-top {
+    background-position:0 -40px;
+}
+
+.error .notice-body {
+    background-position:-311px 0;
+}
+
+.warning .notice-body {
+    background-position:-623px 0;
+}
+
+.error .notice-bot {
+    background-position:0 -13px;
+}
+
+.warning .notice-bot {
+    background-position:0 -26px;
+}
+
+.error .notice-body span.notice-icon {
+    background-position:0 -168px;
+}
+
+.warning .notice-body span.notice-icon {
+    background-position:0 -110px;
+}
+
+#dialog-confirm{
+    margin: 5px 0;
+}
+
+/* Enlace de textos colapsados (plugin) */
+a.morelink {
+    color: #3898E6;
+    text-decoration: none;
+}
+
+a.morelink:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+/** TEMP FIX */
+
+#main_menu .item_name {
+  box-sizing: content-box;
+  font-size: 120%;
+}
+
+#main_menu .item_tip {
+  box-sizing: content-box;
+  font-size: 68%;
+}
+
+#main_menu .sub_menu .content li a {
+  box-sizing: content-box;
+  font-size: 73%;
+}
+
+#top-menu .icon {
+  box-sizing: content-box;
+}
+
+#top-menu ul {
+  display: inline;
+  list-style: none;
+}
+
+.top-menu-dropdown {
+  box-sizing: content-box;
+}
+
+.top-menu-dropdown ul {
+  list-style: none;
+}
+
+.top-menu-dropdown a {
+  box-sizing: content-box;
+}

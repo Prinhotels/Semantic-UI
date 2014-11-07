@@ -1,3 +1,25 @@
 /*******************************
          Site Overrides
 *******************************/
+
+h1.ui.header {
+    background: url('/media/img/h1_bg.png?v=2.214') no-repeat 0 100%;
+    color: #006699;
+    text-shadow: #FFF 1px 1px 2px;
+    padding: 5px 0 0px 78px;
+    margin: 0 0 20px;
+}
+
+h1 {font-size: 183%} /* checked */
+h2.ui.header {font-size: 180%;}
+h3.ui.header {font-size: 165%;}
+h4 {font-size: 123%;} /* checked */
+h5.ui.header {font-size: 112%;}
+h6.ui.header {font-size: 100%;}
+
+h1.ui.header, h2.ui.header, h3.ui.header, h4.ui.header {
+    font-family: 'Maven Pro', arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2,h3,h4,h5,h6 {margin: 10px 0; padding: 0;}

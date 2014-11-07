@@ -3,6 +3,7 @@ test/coverage/
 coverage/
 src/**/site/
 dist/
+build/
 tasks/admin/oauth.js
 
 # Numerous always-ignore extensions
